@@ -4,6 +4,7 @@ namespace App\Services;
 
 use Exception;
 use App\Product;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Validator;
 
 class ProductService
