@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
-use Illuminate\Support\Arr;
-use Illuminate\Http\Request;
 use Exception;
-use InvalidArgumentException;
+use Illuminate\Http\Request;
 use App\Services\ProductService;
 
 class ProductController extends Controller
